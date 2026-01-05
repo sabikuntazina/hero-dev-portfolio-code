@@ -26,6 +26,23 @@
     font-weight: bold;
     cursor: pointer;
 }
+
+.section-heading{
+    max-width: 887px;
+    text-align: center;
+    
+}
+.section-heading h2{
+   font-size: 35px;
+   margin-bottom: 30px;
+
+}
+.section-heading p{
+    font-size: 18px;
+    margin-bottom: 30px;
+    line-height: 30px;
+    color: #757575;
+}
 /* main style  */
 
 header{
@@ -91,4 +108,33 @@ nav .menu a{
 #banner .banner-img img{
     max-width: 585px;
     vertical-align: middle;
+}
+
+/* about section start  */
+#about{
+    padding-top: 130px;
+    /* border: 2px solid red; */
+}
+
+#about .about-container{
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+    text-align: center;
+    /* border: 2px solid red; */
+    background-color: #FFF8F3;
+    padding: 131px 156px;
+}
+#about .about-container .about-info{
+    display: flex;
+    justify-content: space-around;
+}
+#about .about-container .about-info p{
+      font-size: 20px;
+    font-weight: 18px;
+    color: #757575;
+    line-height: 30px;
+}
+#about .about-container .about-info h4{
+      font-size: 20px;
 }
